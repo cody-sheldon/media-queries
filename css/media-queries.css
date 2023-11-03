@@ -19,3 +19,23 @@
 h1 {
     text-align: center;
 }
+
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    padding: 1em;
+    background-color: #cccccc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.header-img img{
+    width:100%;
+}
+
