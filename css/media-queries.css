@@ -1,4 +1,21 @@
-nav{
-    background-color: #ccffff
 
+* {
+    box-sizing: border-box;
+    font-family: "Times New Roman", serif; /* @todo - investigate font */
+}
+
+.alert-info {
+    text-align: center;
+    border: 1px solid lightgrey;
+    background-color: #ccffff;
+    padding: 1em;
+}
+
+.alert-info a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
 }
