@@ -5,6 +5,14 @@
     font-family: "Times New Roman", serif; /* @todo - investigate font */
 }
 
+#social-media-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#social-media-links a {
+    padding: 0 1em;
+}
 
 .alert-info {
     text-align: center;
@@ -101,8 +109,10 @@ footer {
     }
 
     footer {
-        position: absolute;
-        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        /*position: absolute;*/
+        /*bottom: 0;*/
     }
 
     .header-img {
