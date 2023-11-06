@@ -1,9 +1,13 @@
 
 * {
-
     box-sizing: border-box;
     font-family: "Times New Roman", serif; /* @todo - investigate font */
 }
+
+/*body {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
 
 #social-media-links {
     display: flex;
